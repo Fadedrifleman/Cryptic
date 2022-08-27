@@ -1,0 +1,20 @@
+body {
+    background-color: #1e2026;
+}
+
+.header {
+    display: inline-block;
+}
+
+.title {
+    margin: 30px 20px 30px 20px;
+}
+
+
+.button {
+    background-color: #4d4d4d;
+    border-radius: 35%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}

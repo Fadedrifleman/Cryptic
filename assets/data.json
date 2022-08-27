@@ -1,0 +1,82 @@
+[
+  {
+    "name": "BTC/INR",
+    "last": 1727344,
+    "buy": 1726516,
+    "sell": 1727342,
+    "volume": 4.69027,
+    "base_unit": "btc"
+  },
+  {
+    "name": "YFI/INR",
+    "last": 798396,
+    "buy": 750004,
+    "sell": 796627,
+    "volume": 0.242288,
+    "base_unit": "yfi"
+  },
+  {
+    "name": "YFII/INR",
+    "last": 74500,
+    "buy": 74000,
+    "sell": 74500,
+    "volume": 36.853285,
+    "base_unit": "yfii"
+  },
+  {
+    "name": "MKR/INR",
+    "last": 73093.05,
+    "buy": 66055,
+    "sell": 70000,
+    "volume": 3.00343,
+    "base_unit": "mkr"
+  },
+  {
+    "name": "YFI/WRX",
+    "last": 47819,
+    "buy": 46993,
+    "sell": 47494,
+    "volume": 0.031994,
+    "base_unit": "yfi"
+  },
+  {
+    "name": "BNB/INR",
+    "last": 23800,
+    "buy": 23510,
+    "sell": 23800,
+    "volume": 156.0542,
+    "base_unit": "bnb"
+  },
+  {
+    "name": "BTC/USDT",
+    "last": 20098,
+    "buy": 20040,
+    "sell": 20065,
+    "volume": 4.61078,
+    "base_unit": "btc"
+  },
+  {
+    "name": "BCH/INR",
+    "last": 10269,
+    "buy": 9801,
+    "sell": 10259,
+    "volume": 37.2334,
+    "base_unit": "bch"
+  },
+  {
+    "name": "PAXG/INR",
+    "last": 148000,
+    "buy": 141266,
+    "sell": 148000,
+    "volume": 0.00438,
+    "base_unit": "paxg"
+  },
+  {
+    "name": "ETH/INR",
+    "last": 130400,
+    "buy": 130123,
+    "sell": 132400,
+    "volume": 74.9674,
+    "base_unit": "eth"
+  }
+]

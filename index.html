@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holdinfo.com</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+
+<body>
+    <div>
+
+        <span><h1 class="header title">HOLDINFO.com</h1></span>
+        <span><button class="header button button1" type="button"> INR</button></span>
+        <span><button class="header button button1" type="button"> BTC</button></span>
+        <span><button class="header button button2" type="button"> Connect to telegram</button></span>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Last</th>
+                <th>Buy/Sell Price</th>
+                <th>Volume</th>
+                <th>base_unit</th>
+            </tr>
+            <tbody id="tableBody">
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+<script>
+    async function loadIntoTable(url, table) {
+        const tBody = table.querySelector("tbody");
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log(data);
+    }
+
+    loadIntoTable('./assets/data.json',document.querySelector("table"));
+</script>
+
+
+</html>
